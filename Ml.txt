@@ -1,0 +1,173 @@
+Ml
+
+
+DI
+
+Gen Ai - llm model
+
+Agnetic Agnetic - flow automated
+
+ai agent(perform sigle task) / agnetic ai(perfomr whole program)
+
+end to end
+
+
+model-api fast api - pipeleine-docker/github action or jenkis - aws - call front end side
+
+
+
+
+What is Ai?
+
+The work done by human beung are done by thriugh machine is called AI
+
+
+Life Cycle of model?
+ Steps are to follow in Life Cycle-->
+
+1 problem --> definition(Kis type ke problem hai// solve machine)
+
+
+For ex-  domain - business related - problem
+
+share market - buy sell -AI
+
+
+
+
+2 data --- data collection 
+
+In real life me collect and load the data through api(json format),web scrapping
+
+
+
+3 data pre processing(cleaning)-  null rel remove, duplicate value,, handle, outlier
+
+4 EDA--(Exp data analysis)- graphs
+
+5 features engineering---- data available - extra add(),addnew coulm
+
+6 model selection-choose model --- alogo=irthm based - set of predefined rules--- all alorithm class based
+
+
+7 train/test--- ek criteia hai  80 is choose for training and 20 percent is choose for testing
+
+8  accuracy--- percentage true prediction 0 to /0.7 to 0.94 // star 0.92
+
+9 deployment
+
+10 monitoring-- live -  new data
+
+
+What is ML->>> data - train - model - train -pattern - prediction
+
+
+
+from xml.parsers.expat import model
+
+
+y =mx + c
+#output = slope 
+print (model.coef_[0])
+ptint(model.intercept_)
+
+
+
+result=model.predict([[5]])
+print(result)       
+
+
+forward propagation 
+backward propagation
+
+Error-
+
+
+expe          salary y
+
+
+1                 20k
+2                   30k
+3               27k
+   
+
+
+
+
+Actual data/prdicted data
+
+20-17 = 3k 
+
+
+
+MSE - measured square Error
+
+if mse = o model -> its perfect -> 1-- 100 %per accuracy
+(jab koi error na ho tehn mse 0 aayega )
+
+if mse - low -> average model->>> its actrate 0.7 to 0.8
+
+
+if mse - >> high model ->> worst model
+
+
+{Jo model ko launch karna hai uska refernce mse se lenge human}
+
+
+
+
+
+Rmse_--> msi ka root nikalna hai 
+
+
+
+Methods=======
+
+
+====>>>“Classification
+===>>Regression
+
+
+Classifictaion_>
+“Classification ka matlab hai data ko categories me divide karna.”
+Example: Email spam hai ya nahi
+
+
+
+Input diya → Model batayega “ye kis type ka hai?”
+
+
+
+For Example->>>
+
+
+
+
+Model-- api
+
+ 
+
+
+ #api  - pickel end point  =-  frontend developer
+
+
+ #website mobile application
+
+ frontend -- llm model
+ .pkl
+
+ .pkl . LinearRegression - class - object // binary
+
+
+ write binary
+
+
+ import pickle 
+
+ pickle.dump(model,open("salary_apui.pkl","wb"))
+
+
+
+
+
+
