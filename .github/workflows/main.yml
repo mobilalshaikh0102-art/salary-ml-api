@@ -26,3 +26,6 @@ jobs:
     # 🔥 NEW STEP (VERY IMPORTANT)
     - name: Deploy to Render
       run: curl "https://api.render.com/deploy/srv-d7qqbo7avr4c73f42no0?key=2n4nKrW3ISU"
+
+    - name: Deploy to Render
+      run: curl ${{ secrets.RENDER_DEPLOY_HOOK }}
